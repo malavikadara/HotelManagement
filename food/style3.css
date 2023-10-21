@@ -1,0 +1,47 @@
+
+a {
+  text-decoration: none;
+color:black;
+}
+  
+ .img-container{
+      height:800px;
+      width: 1200px;
+      position: relative;
+      float: left;
+  }
+ 
+.container1{
+		
+display:grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 30px;
+			align-items: center;
+			justify-content: center;
+			height:50px;
+		     padding:50px;
+}
+.image1 {
+ position:relative;
+ top: 10px;
+      text-align: center;
+width: 350px;
+margin:auto;
+		
+		box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+		transition: 1s;
+border:3px solid;
+  }
+     
+	.image1 img{
+		display: block;
+		width:100%;
+		border-radius: 5px;
+           
+
+	}
+	.image1:hover{
+		transform: scale(1.2);
+border:3px solid brown;
+		
+	}	
